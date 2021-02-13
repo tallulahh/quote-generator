@@ -1,0 +1,39 @@
+body {
+  background-color: #03011f;
+  font-family: "Source Sans Pro";
+  color: #6cacc5;
+  text-align: center;
+}
+
+.source {
+  font-style: italic;
+  font-weight: bold;
+  line-height: 4;
+}
+
+.quoteBox {
+  width: 60%;
+  margin: 100px auto;
+}
+
+q {
+  opacity: 0;
+  font-size: 26px;
+}
+
+button {
+  background: rgba(42,50,113, .28);
+  border: 2px solid #6cacc5;
+  color: inherit;
+  font-family: inherit;
+  padding: 5px 10px;
+  margin: 0 auto;
+  left:0;right:0;
+  top: 400px;
+  cursor: pointer;
+  position: absolute;
+}
+
+button:hover {
+  background: rgba(42,50,113, .5);
+}
